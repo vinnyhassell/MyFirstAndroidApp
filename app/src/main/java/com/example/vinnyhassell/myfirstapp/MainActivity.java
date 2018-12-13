@@ -52,14 +52,12 @@ public class MainActivity extends AppCompatActivity {
 
         //Get data from preferences
         SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
-/*
+
         String[] searchTerms = {
                 "Stevie Wonder",
                 "Meghan Markle",
                 "Noel Edmonds"
         };
-*/
-
 
         /*
         SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
